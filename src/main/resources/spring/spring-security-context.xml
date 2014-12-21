@@ -29,6 +29,7 @@ http://www.springframework.org/schema/security/spring-security.xsd">
 	<security:http pattern="/index.jsp" security="none"/>
 	<security:http pattern="/resources/**" security="none"/>
 	<security:http pattern="/blood" security="none"/>
+	<security:http pattern="/favicon.ico" security="none" />
 	
 	<!-- use-expressions: this allows us to use expressions in our intercept-url access configuration. -->
 	<!-- access-denied-page: this is the page users will be redirected to when they try to access protected areas. -->
@@ -45,6 +46,7 @@ http://www.springframework.org/schema/security/spring-security.xsd">
 				
 		<security:logout logout-url="/logout" logout-success-url="/login?out=1" delete-cookies="JSESSIONID" invalidate-session="true"/>
 	
+		<security:intercept-url pattern="favicon.ico" access="permitAll()" />
 		<security:intercept-url pattern="/login*" access="permitAll()"/>
 		<security:intercept-url pattern="/blood" access="permitAll()"/>
 		<security:intercept-url pattern="/blood/showRegisteredUsers"  access="permitAll()" />
