@@ -69,7 +69,7 @@
 					<tbody>
 						<c:forEach items="${providerList}" var="providerRequest">
 							<tr>
-								<td><c:out value="${providerRequest.bloodGroup}"/></td>
+								<td><c:out value="${providerRequest.bloodGroup.getBloodGroupName()}"/></td>
 								<td><c:out value="${providerRequest.requestPostedBy.providerName}"/></td>
 								<td><c:out value="${providerRequest.requestPostedBy.contactDetail.phones}"/></td>
 								<td><c:out value="${providerRequest.requestPostedBy.contactDetail.email}"/></td>
