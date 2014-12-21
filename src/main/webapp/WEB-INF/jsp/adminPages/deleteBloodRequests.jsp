@@ -5,11 +5,11 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Deleting User Profiles</title>
+<title>Deleting Blood Requests</title>
 </head>
 <body>
 
-	<h2>Deleting User Profiles</h2>
+	<h2>Deleting Blood Requests</h2>
 	<p align="right"><a href="<c:url value='/blood'/>">Back to Home Page</a></p>
 	<p align="right"><a href="<c:url value='/admin/delete'/>">Back to Admin Delete</a></p>
 	<table border="1">
