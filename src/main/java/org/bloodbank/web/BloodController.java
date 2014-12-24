@@ -5,13 +5,13 @@ import java.util.Map;
 
 import javax.validation.Valid;
 
-import org.blood.mongo.repo.UserProfileRepository;
 import org.bloodbank.mongo.dao.BloodRequestDao;
 import org.bloodbank.mongo.model.BloodGroup;
 import org.bloodbank.mongo.model.BloodRequest;
 import org.bloodbank.mongo.model.MemberProfile;
 import org.bloodbank.mongo.model.ProviderProfile;
 import org.bloodbank.mongo.model.UserType;
+import org.bloodbank.mongo.repo.UserProfileRepository;
 import org.bloodbank.mongo.service.BloodRequestService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageRequest;

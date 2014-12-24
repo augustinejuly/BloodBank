@@ -4,10 +4,10 @@ import static org.bloodbank.mongo.dao.BloodRequestDao.BLOOD_REQUEST_COLLECTION_N
 
 import java.util.Date;
 
-import org.blood.mongo.repo.UserProfileRepository;
 import org.bloodbank.mongo.dao.BloodRequestDao;
 import org.bloodbank.mongo.model.BloodRequest;
 import org.bloodbank.mongo.model.CommonUserProfile;
+import org.bloodbank.mongo.repo.UserProfileRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

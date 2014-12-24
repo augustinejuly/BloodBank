@@ -25,7 +25,7 @@
 				<util:constant static-field="com.mongodb.WriteConcern.SAFE" />
 			</property>
 		</bean>
-		<mongo:repositories base-package="org.blood.mongo.repo">
+		<mongo:repositories base-package="org.bloodbank.mongo.repo">
 			<mongo:repository id="repository"
 				mongo-template-ref="mongoTemplate" />
 		</mongo:repositories>
@@ -37,7 +37,7 @@
 	
 		<bean id="mongoTemplate" class="org.bloodbank.mongo.service.MongoTemplateFactoryBean"/>
 		
-		<mongo:repositories base-package="org.blood.mongo.repo">
+		<mongo:repositories base-package="org.bloodbank.mongo.repo">
 			<mongo:repository id="repository"
 				mongo-template-ref="mongoTemplate" />
 		</mongo:repositories>

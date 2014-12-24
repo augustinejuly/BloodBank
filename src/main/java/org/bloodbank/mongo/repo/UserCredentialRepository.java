@@ -1,4 +1,4 @@
-package org.blood.mongo.repo;
+package org.bloodbank.mongo.repo;
 
 import org.bloodbank.mongo.model.UserCredential;
 import org.springframework.data.mongodb.repository.MongoRepository;

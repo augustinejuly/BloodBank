@@ -1,8 +1,8 @@
 package org.bloodbank.mongo.service;
 
-import org.blood.mongo.repo.BloodRequestRepository;
-import org.blood.mongo.repo.UserProfileRepository;
 import org.bloodbank.mongo.model.UserCredential;
+import org.bloodbank.mongo.repo.BloodRequestRepository;
+import org.bloodbank.mongo.repo.UserProfileRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoOperations;
 import org.springframework.data.mongodb.core.query.Criteria;

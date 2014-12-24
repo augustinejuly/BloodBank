@@ -1,7 +1,7 @@
 package org.bloodbank.mongo.dao;
 
-import org.blood.mongo.repo.UserCredentialRepository;
 import org.bloodbank.mongo.model.UserCredential;
+import org.bloodbank.mongo.repo.UserCredentialRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoOperations;
 import org.springframework.stereotype.Repository;

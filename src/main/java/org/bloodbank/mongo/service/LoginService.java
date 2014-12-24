@@ -3,8 +3,8 @@ package org.bloodbank.mongo.service;
 import java.util.Arrays;
 import java.util.List;
 
-import org.blood.mongo.repo.UserCredentialRepository;
 import org.bloodbank.mongo.model.UserCredential;
+import org.bloodbank.mongo.repo.UserCredentialRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.User;

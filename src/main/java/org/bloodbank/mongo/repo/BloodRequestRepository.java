@@ -1,4 +1,4 @@
-package org.blood.mongo.repo;
+package org.bloodbank.mongo.repo;
 
 import java.util.List;
 
